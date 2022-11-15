@@ -3,4 +3,5 @@ function birthdayMsg(name, age, msg){
     age + " years old. " + msg
 }
 
-document.getElementById('paragraph').innerHTML = birthdayMsg("Bob", 20, "yay!")
+document.getElementById('p1').innerHTML = birthdayMsg("Bob", 20, "Yay!")
+document.getElementById('p2').innerHTML = birthdayMsg
